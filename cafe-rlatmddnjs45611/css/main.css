@@ -38,11 +38,11 @@ img {
   transition: .4s;
 }
 .btn:hover {
-  background-color: #333;
+  background-color: #000000;
   color: #FFF;
 }
 .btn.btn--reverse {
-  background-color: #333;
+  background-color: #000000;
   color: #FFF;
 }
 .btn.btn--reverse:hover {
@@ -100,8 +100,8 @@ header {
   position: fixed;
   top: 0;
   z-index: 9;
-  background-color: #F6F5F0;
-  border-bottom: 1px solid #c8c8c8;
+  background-color: #ffffff;
+  border-bottom: 1px solid #000000;
 }
 header > .inner {
   height: 120px;
@@ -131,7 +131,7 @@ header .sub-menu ul.menu li::before {
   content: "";
   width: 1px;
   height: 12px;
-  background-color: #e5e5e5;
+  background-color: #000000;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -144,7 +144,7 @@ header .sub-menu ul.menu li a {
   padding: 11px 16px;
   display: block;
   font-size: 13px;
-  color: #656565;
+  color: #969696;
 }
 header .sub-menu ul.menu li a:hover {
   color: #000;
@@ -195,7 +195,7 @@ header .main-menu .item .item__name {
   font-size: 13px;
 }
 header .main-menu .item:hover .item__name {
-  background-color: #2C2A29;
+  background-color: #ffffff;
   color: #EA9926;
   border-radius: 6px 6px 0 0;
 }
@@ -238,7 +238,7 @@ header .main-menu .item .item__contents .contents__texture {
   background-image: url("../images/main_menu_pattern.jpg");
 }
 header .main-menu .item .item__contents .contents__texture h4 {
-  color: #999;
+  color: #ffffff;
   font-weight: 900;
 }
 header .main-menu .item .item__contents .contents__texture p {
@@ -255,7 +255,7 @@ header .badges .badge {
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 12px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+  box-shadow: 4px 4px 10px rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -317,7 +317,7 @@ header .badges .badge {
 .notice .bg-left {
   width: 50%;
   height: 100%;
-  background-color: #333;
+  background-color: #ffffff;
   position: absolute;
   top: 0;
   left: 0;
@@ -336,7 +336,7 @@ header .badges .badge {
 }
 .notice .inner__left {
   width: 70%;
-  background-color: #333;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
 }
@@ -394,7 +394,7 @@ header .badges .badge {
 .promotion {
   display: flex;
   justify-content: center;
-  background-color: #f6f5ef;
+  background-color: #000000;
   overflow: hidden;
   position: relative;
   height: 663px;
@@ -445,11 +445,11 @@ header .badges .badge {
 .promotion .swiper-button-next {
   width: 42px;
   height: 42px;
-  border: 2px solid #333;
+  border: 2px solid #ffffff;
   border-radius: 50%;
   top: 300px;
   z-index: 1;
-  color: #333;
+  color: #ffffff;
 }
 .promotion .swiper-button-prev {
   left: 50%;
@@ -461,8 +461,8 @@ header .badges .badge {
 }
 .promotion .swiper-button-prev:hover,
 .promotion .swiper-button-next:hover {
-  background-color: #333;
-  color: #fff;
+  background-color: #ffffff;
+  color: #ffffff;
 }
 .promotion .swiper-button-prev::after,
 .promotion .swiper-button-next::after {
@@ -477,7 +477,7 @@ header .badges .badge {
 .rewards .bg-left {
   width: 50%;
   height: 100%;
-  background-color: #272727;
+  background-color: #000000;
   position: absolute;
   top: 0;
   left: 0;
@@ -485,7 +485,7 @@ header .badges .badge {
 .rewards .bg-right {
   width: 50%;
   height: 100%;
-  background-color: #d5c798;
+  background-color: #000000;
   position: absolute;
   top: 0;
   right: 0;
@@ -761,7 +761,7 @@ header .badges .badge {
 
 /*FOOTER*/
 footer {
-  background-color: #272727;
+  background-color: #3f3f3f;
   border-top: 1px solid #333;
 }
 footer .inner {
